@@ -14,9 +14,6 @@ eL = []
 spL = ['name','address','phone number','social security number']
 testValues = [sI, mI, bI, eI, spI, sS, mS, bS, eS, aL, mL, lL, eL, spL]
 
-type(sI)
-isinstance(sI, int)
-
 def filterByType(value):
     if isinstance(value, int):
         if value >= 100:
