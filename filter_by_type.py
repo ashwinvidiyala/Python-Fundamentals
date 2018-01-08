@@ -15,17 +15,17 @@ spL = ['name','address','phone number','social security number']
 testValues = [sI, mI, bI, eI, spI, sS, mS, bS, eS, aL, mL, lL, eL, spL]
 
 def filterByType(value):
-    if isinstance(value, int):
+    if isinstance(value, int): #type(value) == int
         if value >= 100:
             print "That's a big number"
         else:
             print "That's a small number"
-    elif isinstance(value, str):
+    elif isinstance(value, str): #type(value) == str
         if len(value) >= 50:
             print "Long sentence"
         else:
             print "Short sentence"
-    elif isinstance(value, list):
+    elif isinstance(value, list): #type(value) == list
         if len(value) >= 10:
             print "Big list!"
         else:
