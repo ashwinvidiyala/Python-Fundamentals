@@ -32,9 +32,6 @@ def horizontal_print(list):
         print x,
     print ""
 
-# for x in line1:
-#     print x,
-
 horizontal_print(line1)
 horizontal_print(line2)
 horizontal_print(line3)
