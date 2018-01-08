@@ -10,7 +10,7 @@ def typeList(list):
             sum = sum + value
         if isinstance(value, str):
             string = string + " " + value
-    if sum > 0 and len(string) == 0:
+    if sum != 0 and len(string) == 0:
         print "The list you entered is of integer type."
         print "Sum:", sum
     elif sum == 0 and len(string) >= 0:
