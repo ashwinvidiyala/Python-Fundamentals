@@ -26,7 +26,6 @@ users = {
 for key,value in users.iteritems():
  print key
  for val in value:
-     print "{} - {} {} - {}".format(value.index(val) + 1,
-            val["first_name"].upper(),
-            val["last_name"].upper(),
-            len(val["first_name"]+val["last_name"]))
+     first = val["first_name"].upper()
+     last = val["last_name"].upper()
+     print "{} - {} {} - {}".format(value.index(val) + 1, first, last, len(first+last))
