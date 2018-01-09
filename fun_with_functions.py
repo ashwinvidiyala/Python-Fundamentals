@@ -9,7 +9,7 @@ def odd_even(end):
             odd_or_even = 'odd'
             print "Number is {}. This is an {} number.".format(x, odd_or_even)
 
-odd_even(2)
+odd_even(2000)
 
 # Multiply Function
 def multiply(list, value):
