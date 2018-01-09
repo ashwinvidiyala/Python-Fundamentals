@@ -4,4 +4,7 @@ my_dict = {
   "Jay": "(777) 777-7777"
 }
 
-print [(k,v) for k,v in my_dict.iteritems()]
+def make_tuples(dict):
+    return [(k,v) for k,v in my_dict.iteritems()]
+
+print make_tuples(my_dict)
